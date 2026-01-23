@@ -1,6 +1,6 @@
 # Health Economics Unit Patient Analytics
 
-This repository contains the code and data for the Health Economics Unit (HEU) patient analytics project. The project aims to analyze patient health data to gain insights into patient demographics, diagnoses, and factors influencing missed appointments. The analysis involves data visualization, statistical calculations, and data preparation to explore the dataset and identify patterns and trends. The findings from the analysis can be used to understand the factors influencing missed appointments and develop strategies to reduce no-show rates in healthcare settings. The project also includes documentation related to the recruitment process for a lead data scientist position at the HEU. The project is structured as follows:
+This repository contains code and data for the Health Economics Unit (HEU) patient analytics project. The project aims to analyze patient health data to gain insights into patient demographics, diagnoses, and factors influencing missed appointments. The analysis involves data visualization, statistical calculations, and data preparation to explore the dataset and identify patterns and trends. The findings from the analysis can be used to understand the factors influencing missed appointments and develop strategies to reduce no-show rates in healthcare settings. The project also includes documentation related to the recruitment process for a lead data scientist position at the HEU. The project is structured as follows:
 
 ```
 heu-patient-analytics/
