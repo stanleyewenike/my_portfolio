@@ -1,4 +1,4 @@
-# Stan's Portfolio
+# [Portfolio](https://github.com/stanleyewenike/my_portfolio) | [GitHub Profile](https://github.com/stanleyewenike) | [LinkedIn](https://www.linkedin.com/in/stanley-ewenike-ph-d-a0542b40/)
 
 # Overview
 
