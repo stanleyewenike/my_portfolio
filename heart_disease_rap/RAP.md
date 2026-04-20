@@ -2,7 +2,7 @@
 
 This project follows the UK Government Analytical Community's **Reproducible Analytical Pipeline (RAP)** principles, as set out by the Office for National Statistics.
 
-RAP is not a tool or a framework; it is a set of working principles that collectively ensure analysis is trustworthy, repeatable, and auditable. Each principle below is mapped to concrete evidence in this repository.
+RAP is neither a tool or a framework; it can be referred to as a set of working principles that collectively ensure analysis is trustworthy, repeatable, and auditable. Each principle below is mapped to concrete evidence in this repository
 
 ---
 
