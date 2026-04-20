@@ -1,0 +1,114 @@
+{
+  "document": "anonymised_1.pdf",
+  "processed_at": "2026-03-06T00:44:05.028763",
+  "total_pages": 4,
+  "configuration": {
+    "classification_method": "keyword",
+    "ner_method": "regex_only",
+    "ocr_engine": "tesseract",
+    "ocr_dpi": 300
+  },
+  "summary": {
+    "categories_found": [
+      "Planning Permission Approval Notice",
+      "Local Land Charges Register",
+      "Approval of Details Notice",
+      "Conditional Planning Permission Grant"
+    ],
+    "total_application_numbers": 5,
+    "total_names_extracted": 4
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "classification": {
+        "category": "Local Land Charges Register",
+        "confidence": 0.95,
+        "method": "keyword_heuristic"
+      },
+      "entities": {
+        "application_numbers": [
+          "02/80/1609",
+          "02/81/1237"
+        ],
+        "applicant_names": [
+          {
+            "name": "Mr. & Mra. J.M Doe",
+            "type": "PERSON"
+          },
+          {
+            "name": "My First Company Ltd.",
+            "type": "ORGANISATION"
+          }
+        ]
+      },
+      "metadata": {
+        "ocr_word_count": 385,
+        "ocr_char_count": 1955
+      }
+    },
+    {
+      "page_number": 2,
+      "classification": {
+        "category": "Planning Permission Approval Notice",
+        "confidence": 0.8,
+        "method": "keyword_heuristic"
+      },
+      "entities": {
+        "application_numbers": [
+          "P/00/0759"
+        ],
+        "applicant_names": [
+          {
+            "name": "Mr M Dale",
+            "type": "PERSON"
+          }
+        ]
+      },
+      "metadata": {
+        "ocr_word_count": 272,
+        "ocr_char_count": 1672
+      }
+    },
+    {
+      "page_number": 3,
+      "classification": {
+        "category": "Conditional Planning Permission Grant",
+        "confidence": 0.8,
+        "method": "keyword_heuristic"
+      },
+      "entities": {
+        "application_numbers": [],
+        "applicant_names": []
+      },
+      "metadata": {
+        "ocr_word_count": 626,
+        "ocr_char_count": 3547
+      }
+    },
+    {
+      "page_number": 4,
+      "classification": {
+        "category": "Approval of Details Notice",
+        "confidence": 0.8,
+        "method": "keyword_heuristic"
+      },
+      "entities": {
+        "application_numbers": [
+          "P/98/0964",
+          "P/96/0900"
+        ],
+        "applicant_names": [
+          {
+            "name": "Mrs AM Stephens",
+            "type": "PERSON"
+          }
+        ]
+      },
+      "metadata": {
+        "ocr_word_count": 170,
+        "ocr_char_count": 1069
+      }
+    }
+  ]
+}
