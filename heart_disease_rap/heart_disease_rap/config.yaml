@@ -1,0 +1,56 @@
+# ============================================================
+# Heart Disease Predictive Model - Configuration
+# ============================================================
+# Change parameters here; no need to edit source code.
+
+project:
+  name: heart_disease_prediction
+  version: "1.0.0"
+
+paths:
+  raw_data: data/raw/heart_disease_uci.csv
+  outputs: outputs
+
+random:
+  seed: 42
+
+split:
+  test_size: 0.2
+  cv_folds: 5
+
+features:
+  # Features dropped because missingness exceeds reliable imputation threshold
+  drop_high_missing:
+    - ca      # 66% missing
+    - thal    # 53% missing
+  # Columns to exclude from X entirely (target, id)
+  drop_always:
+    - id
+    - num
+  numeric:
+    - age
+    - trestbps
+    - chol
+    - thalch
+    - oldpeak
+  categorical:
+    - sex
+    - dataset
+    - cp
+    - fbs
+    - restecg
+    - exang
+    - slope
+  # Physiologically impossible values to recode as missing
+  impossible_zeros:
+    - trestbps
+    - chol
+
+model:
+  type: logistic_regression
+  params:
+    max_iter: 2000
+    class_weight: null   # target is near-balanced (55/45)
+    solver: lbfgs
+    penalty: l2
+    C: 1.0
