@@ -156,13 +156,17 @@ The pipeline is deterministic. With the default seed (`42`), every run will prod
 
 ## Data source
 
-UCI Heart Disease dataset, pooled from four research studies (Cleveland, Hungarian, Swiss, VA Long Beach) collected in the late 1980s. Provided with the technical assessment. Not representative of contemporary UK NHS populations; any real-world deployment would require external validation.
+Heart Disease dataset, pooled from four research studies (Cleveland, Hungarian, Swiss, VA Long Beach). Provided with the technical assessment. 
+
+## Disclaimer
+
+Not representative of contemporary UK NHS populations; any real-world deployment would require external validation.
 
 ---
 
 ## License
 
-Internal use only — NHS England technical assessment, April 2026.
+Internal use only — NHSE technical assessment, April 2026.
 
 ## Author
 
