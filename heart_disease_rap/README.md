@@ -4,6 +4,7 @@ A reproducible logistic regression prototype for predicting heart disease in pat
 
 **Headline results:** 5-fold cross-validated ROC-AUC of 0.89; hold-out test ROC-AUC of 0.92; recall of 0.90 on 184 held-out patients.
 
+
 ---
 
 ## Why this structure
