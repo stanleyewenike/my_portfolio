@@ -7,12 +7,6 @@ heu-patient-analytics/
 │
 ├── data/
 │   ├── patient_health.csv
-├── docs/
-│   ├── 00-Pre-Interview test - Lead Data Scientist Test 2025.docx
-│   ├── 00-Pre-Interview test - Lead Data Scientist Test 2025.docx
-│   ├── 01-Lead Data Scientist-Econometrician - Job Description and Person Specification.pdf
-│   ├── 02-A_Lead Data Scientist.pdf
-│   ├── 03-Applicant_Recruitment Journey_AC_V4.pdf
 ├── models/
 │   ├── 01-relational-model.md
 │   ├── 02-dimensional-model.md
@@ -41,10 +35,6 @@ The project structure is organized into the following directories:
 ## Data
 
 The data for the project is stored in the `data` directory. The dataset `patient_health.csv` contains information on patients including their `PatientID`, `Age`, `Gender`, `Diagnosis`, `AppointmentDate`, `Outcome`, `GPPractice`, and `MissedAppointment`. The dataset was used for the analysis to explore patient demographics, diagnoses, and factors influencing missed appointments.
-
-## Documentation
-
-The `docs` directory contains additional documentation related to the project. The documentation includes a recruitment journey for a lead data scientist position and a presentation on the applicant recruitment journey. The documentation provides insights into the recruitment process and the requirements for the lead data scientist role.
 
 ## Models
 
