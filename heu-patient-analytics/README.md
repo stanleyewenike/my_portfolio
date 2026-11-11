@@ -2,7 +2,7 @@
 
 This repository contains code and data for the Health Economics Unit (HEU) patient analytics project. The project aims to analyze patient health data to gain insights into patient demographics, diagnoses, and factors influencing missed appointments. The analysis involves data visualization, statistical calculations, and data preparation to explore the dataset and identify patterns and trends. The findings from the analysis can be used to understand the factors influencing missed appointments and develop strategies to reduce no-show rates in healthcare settings. The project also includes documentation related to the recruitment process for a lead data scientist position at the HEU. The project is structured as follows:
 
-```
+````
 heu-patient-analytics/
 │
 ├── data/
@@ -13,10 +13,10 @@ heu-patient-analytics/
 ├── notebooks/
 │   ├── 01-eda-and-prep-for-predictive-model.ipynb
 ├── reports/
-│   ├── 01-summary-of-findings.md 
+│   ├── 01-summary-of-findings.md
 │   ├── 02-analysis-plan.md
 │── src/
-│   ├── iac-templates-azure-sql-db-setup/   
+│   ├── iac-templates-azure-sql-db-setup/
 │   │   ├── template.json
 │   │   ├── parameters.json
 │   │   ├── z-repository_iac.py
@@ -28,7 +28,7 @@ heu-patient-analytics/
 │   ├── .gitignore
 │   ├── README.md
 │   ├── requirements.txt```
-```
+````
 
 The project structure is organized into the following directories:
 
@@ -56,7 +56,7 @@ The `src` directory contains source code for the project. The source code includ
 
 The `utils` directory contains utility files for the project. The utility files include a `.gitattributes` file, a `LICENSE` file, a `.gitignore` file, a `README.md` file, and a `requirements.txt` file. The utility files provide information on the project structure, licensing, and dependencies for the project.
 
- -----------------------------------------------------------------------------------------------------
+---
 
 ## Summary of Findings
 
@@ -90,4 +90,4 @@ The age distribution of patients was visualized using a histogram with a KDE plo
 The no-show rates were calculated and visualized for different diagnoses and GP practices. The analysis revealed that `Asthma` has the highest no-show rate at approximately 51.4%, followed by `Hypertension` and `Diabetes`. Among GP practices, `D012` has the highest no-show rate at approximately 57.2%, while `E345` has the lowest at approximately 43.8%. The no-show rates were visualized using
 bar plots.
 
- -----------------------------------------------------------------------------------------------------
+---
